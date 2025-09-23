@@ -13,7 +13,7 @@ Check out all you need to know at our Contributing your own work guide.please
 and more!
 Discussion?
 See the list of discussion pages.
-To explore more ways you can contribute to this project, Cind Kind check out the Community Portal.'''
+To explore more ways you can contribute to this project, Cind Kind check out the Community Portal ans.'''
 
 match = re.search(pattern, text, re.IGNORECASE)
 print(match)
