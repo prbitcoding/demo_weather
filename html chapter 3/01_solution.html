@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato - food deliery at your doorstep </title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Base styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff5f5;
+            /* very light red background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #d62828;
+            /* strong red */
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header div:first-child {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+            color: #ffcccb;
+        }
+
+        /* Main */
+        main {
+            padding: 2rem;
+        }
+
+        main div {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #c1121f;
+            /* darker red */
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            max-width: 800px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #d62828;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+        }
+
+        /* Responsive nav */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header div:first-child {
+                margin-bottom: 1rem;
+            }
+
+            header a {
+                margin: 0.5rem 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>Zomato</div>
+        <div>
+            <a href="/home">home</a>
+            <a href="/about">about</a>
+            <a href="/contact">contact</a>
+        </div>
+    </header>
+    <main>
+
+        <div>
+            ordered food anytime, anywhere
+        </div>
+
+        <p>
+            Zomato (/zoʊˈmæˈtoʊ/ or /zoʊˈmɑːˈtoʊ/)[3] is an Indian online food ordering and delivery service owned by
+            Eternal Limited. Created in 2008 by Deepinder Goyal and Pankaj Chaddah, it began as a restaurant aggregator,
+            providing menu information, user reviews, and recommendations, and expanding to more than 20 countries.[4]
+            In 2015, Zomato entered the food delivery market in India, which soon after became its core business. As of
+            2023, it provides food delivery and table reservation options in more than 800 Indian cities, and restaurant
+            discovery services in the UAE.[5]
+        </p>
+    </main>
+    <footer>
+        copyright zomato all rights reserved
+    </footer>
+</body>
+
+</html>
