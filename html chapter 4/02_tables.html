@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        thead {
+            background-color: #f2f2f2;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <!-- head of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+        <!-- Body of the table -->
+        <tbody>
+            <tr>
+                <td>Harii</td>
+                <td>Pythoh devloper</td>
+                <td>$35000 </td>
+            </tr>
+            <tr>
+                <td>Harshil</td>
+                <td>Django devloper</td>
+                <td>$70000 </td>
+            </tr>
+            <tr>
+                <td>Shivam</td>
+                <td>helper</td>
+                <td>$350 </td>
+            </tr>
+            <tr>
+                <td>jay</td>
+                <td>Video editor</td>
+                <td>$45000 </td>
+            </tr>
+            <tr>
+                <td>Thank</td>
+                <td colspan="2">You</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
