@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Home</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #0f0f0f, #1c1c1c);
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #6a00ff, #b100e8);
+            padding: 30px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #ddd;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1e1e1e;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+
+        nav a {
+            padding: 15px 25px;
+            display: block;
+            font-weight: bold;    background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d3?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #b100e8;
+            color: white;
+        }
+
+        /* Hero Banner */
+        .hero {
+        
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero h1 {
+            position: relative;
+            font-size: 3em;
+            color: #fff;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 30px;
+            border-radius: 10px;
+        }
+
+        /* Games Section */
+        .games {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .game {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .game:hover {
+            transform: translateY(-10px);
+            background-color: #3a3a3a;
+        }
+
+        .game img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .game h3 {
+            margin-top: 15px;
+            font-size: 1.4em;
+        }
+
+        .game p {
+            color: #ccc;
+            font-size: 0.95em;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 14px;
+            border-top: 2px solid #444;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .hero h1 {
+                font-size: 1.5em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 GameZone</h1>
+        <p>Next-Gen Gaming Experience Starts Here</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>🔥 Featured Game: CyberQuest 2049</h1>
+    </section>
+
+    <section class="games">
+        <div class="game">
+            <img src="https://via.placeholder.com/300x200/6a00ff/ffffff?text=Racing+Thunder" alt="Racing Thunder">
+            <h3>Racing Thunder</h3>
+            <p>High-speed racing with stunning graphics and insane tracks.</p>
+        </div>
+        <div class="game">
+            <img src="https://via.placeholder.com/300x200/b100e8/ffffff?text=Alien+Invasion" alt="Alien Invasion">
+            <h3>Alien Invasion</h3>
+            <p>Save the Earth from intergalactic enemies in this shooter game.</p>
+        </div>
+        <div class="game">
+            <img src="https://via.placeholder.com/300x200/ff0055/ffffff?text=Kingdom+Builder" alt="Kingdom Builder">
+            <h3>Kingdom Builder</h3>
+            <p>Build your empire and conquer lands in this strategy classic.</p>
+        </div>
+        <div class="game">
+            <img src="https://via.placeholder.com/300x200/00bfa6/ffffff?text=Shadow+Ninja" alt="Shadow Ninja">
+            <h3>Shadow Ninja</h3>
+            <p>save the earth from intergalactic enemies in this shooter game .</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 GameZone. All rights reserved.
+    </footer>
+
+</body>
+</html>
