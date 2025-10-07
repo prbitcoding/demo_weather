@@ -1,7 +1,7 @@
 def task():
     tasks = []   
     print("----WELCOME TO THE TASK MANAGEMENT APP----")
-    
+
     total_task = int(input("Enter how many tasks you want to add = "))
     for i in range(1, total_task + 1):
         task_name = input(f"Enter task {i} = ")
@@ -35,7 +35,7 @@ def task():
             elif operation == 4:
                 print(f"Total tasks = {tasks}")
             elif operation == 5:
-                print("Closing the program....")
+                print("Thanks.... Now Program is Closed....")
                 break
             else:
                 print("Invalid Input. Please enter a number from 1 to 5.")
