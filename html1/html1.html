@@ -4,25 +4,131 @@
     <title>
         This is my channal
     </title>
+
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: black;
+            background-color: gray;
+            text-transform: uppercase;
+        }
+
+        p {
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+        }
+
+
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        a {
+            color: skyblue;
+            text-decoration: solid;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul,
+        ol {
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        th {
+            background-color: rgb(216, 237, 100);
+            color: black;
+        }
+
+        tr {
+            background-color: gray;
+            color: black;
+        }
+
+        form {
+            background-color: darkgrey;
+            color: black;
+            padding: 10px;
+            border-radius: 2px;
+            width: auto;
+            margin: auto;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 3px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            border: brown;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+            margin: auto;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            height: auto;
+            border: none;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: gray;
+        }
+
+        hr {
+            margin: 10px;
+        }
+    </style>
+
 </head>
 
 <body>
     <h1>thapa technical</h1>
     <hr>
-    <p>please <b>give</b> me a one <i>chance</i> CSS <u>Flexbox</u> is short for the CSS Flexible Box Layout module.
-        Flexbox is a layout model for <del>arranging</del> items (horizontally or vertically) within a container, in a
-        flexible and responsive way.
-        Flexbox makes it easy to design a flexible and responsive layout, without using float or positioning.</p>
+    <div style="border: 1px solid; color: black; background-color: white;">
+        <p>please <b>give</b> me a one <i>chance</i> CSS <u>Flexbox</u> is short for the CSS Flexible Box Layout module.
+            Flexbox is a layout model for <del>arranging</del> items (horizontally or vertically) within a container, in
+            a
+            flexible and responsive way.
+            Flexbox makes it easy to design a flexible and responsive layout, without using float or positioning.
+        </p>
+
+    </div>
 
     <hr>
 
-    H<sub>2</sub>o <br>
+    H<sub>2</sub>o <br> <hr>
     x<sup>2</sup>y<sup>3</sup>z <br>
 
     <hr>
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnrAXjNFkr3fqxqrLFUd-oZLAU2eEqIYT5A&s" width="350"
-        title="logo"> <br>
+        title="Car"> <br>
 
     <a href="https://www.w3schools.com/python/default.asp" target="_blank">w3school</a>
 
@@ -34,7 +140,7 @@
         <li>Chance</li>
     </ul>
 
-    <ol type="1" start="11">
+    <ol type="1" start="1">
         <li>Home</li>
         <li>Generator</li>
         <li>Decorator</li>
@@ -42,7 +148,7 @@
         <li>Chance</li>
     </ol>
 
-    <table border="1" cellspacing="0">
+    <table border="1" cellspacing="3">
         <tr>
             <th> wwe </th>
             <th> cricket </th>
@@ -68,6 +174,32 @@
         </tr>
 
     </table>
+    <hr>
+    <form action="python.com">
+        First name: <input type="text" value=""> <br>
+        Last name: <input type="text" value=""> <br>
+        Password: <input type="password" value=""> <br>
+        <hr>
+        gender: <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female <br>
+        <hr>
+        <input type="checkbox" value="Maths"> Maths
+        <input type="checkbox" value="Science"> Science
+        <input type="checkbox" value="arts"> arts <br>
+        <hr>
+        <select>
+            <option value=""> Select Subject </option>
+            <option value="Maths"> Maths</option>
+            <option value="Science"> Science</option>
+            <option value="arts"> arts </option>
+        </select> <br>
+        <hr>
+        <textarea cols="80" rows="10"></textarea> <br>
+        <hr>
+
+        <input type="Submit" value="Click me">
+    </form>
+    </form>
 
 </body>
 
