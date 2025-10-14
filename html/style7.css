@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+h1{
+    color: aqua;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.backImg{
+    width: 100%;
+    height: 100vh;
+    background-color: black;    
+    background-image: url("google.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.backImg1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;    
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+/* #fontcss{
+    font-family: "Sofia", sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+}  */
+
+/* #textCSS{
+    font-family: "Sofia", sans-serif;
+    color: blue;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    direction: ltr;
+    text-indent: 25px;
+    text-transform: uppercase;
+}  */
+
+
+/* 
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: blue;
+} */
+
+
+/* .borderCSS{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    border: 5px black dotted;
+    border-radius: 15px;
+} */
+
+
+
+
+
+
+
+/* .boxmodel{
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    padding-left: 5px;
+}
+
+input{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+} */
+
+
+
+
+/* p{
+    width: 400px;
+    height: 150px;
+    border: 2px solid red;
+    overflow: scroll;
+} */
+
+
+
+/* .father{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: wheat;
+    position: absolute;
+    left: 0;
+}
+
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+}
+
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(76, 0, 255);
+    position: absolute;
+    bottom: 0;
+} */
+
+
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: cadetblue;
+}
+
+.Logo{
+    width: 30%;
+    line-height: 70px;
+    background-color: blueviolet;
+    text-align: center;
+    float: left;
+}
+
+.Menu{
+    width: 70%;
+    line-height: 70px;
+    background-color: brown;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding : 0 10px;
+    margin: 0 10px;
+}
