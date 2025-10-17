@@ -13,6 +13,6 @@ console.log(my_firstname);
 var $cityName = "New york";
 console.log(cityName);
 
-var my@Email = "john@example.com";
-console.log(my@Email);
+// var my@Email = "john@example.com";
+// console.log(my@Email);
 
