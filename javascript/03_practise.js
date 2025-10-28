@@ -1,5 +1,6 @@
 // 3: Write a program to check if a number is negative, or zero.
 
+
 var num = 0;
 
 if (num  == 0){
