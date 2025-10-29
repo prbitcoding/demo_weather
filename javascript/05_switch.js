@@ -1,25 +1,24 @@
-var areaofshapes = "circle";
-var a = 5;
-var b = 10;
-var result;
- 
-switch(areaofshapes) {
-    case "square":
-        result = a * a;
-        console.log(result);
-        break;
+function calculator(num1, num2, operator) {
+  let result;
+  switch (operator) {
+    case "+":
+      return  num1 + num2;
 
-    case "rectangle":
-        result = a * b;
-        console.log(result);
-        break;
+    case "-":
+      return  num1 - num2;
 
-    case "circle":
-        var r = 2;
-        result = 3.142 * (r * r);
-        console.log(result);
-        break;
+    case "*":
+      return  num1 * num2;
+
+    case "/":
+      return  num1 / num2;
 
     default:
-        console.log("Not match shapes")
+      return "no operator found";
+  }
 }
+
+console.log(calculator(5, 10, "+"));
+console.log(calculator(15, 10, "-"));
+console.log(calculator(5, 10, "*"));
+console.log(calculator(10, 0, "/"));
