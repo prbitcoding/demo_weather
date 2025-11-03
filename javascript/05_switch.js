@@ -11,14 +11,19 @@ function calculator(num1, num2, operator) {
       return  num1 * num2;
 
     case "/":
-      return  num1 / num2;
+        if (num2 == 0){
+            return "0 is not allowed";
+        }else{
+            result = num1 / num2;
+            return result;
+        }
 
-    default:
-      return "no operator found";
+        default:
+            return "no operator found";
   }
 }
 
 console.log(calculator(5, 10, "+"));
 console.log(calculator(15, 10, "-"));
 console.log(calculator(5, 10, "*"));
-console.log(calculator(10, 0, "/"));
+console.log(calculator(10, 10, "/"));
