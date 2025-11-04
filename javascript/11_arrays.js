@@ -44,7 +44,7 @@
 
 
 
-// let fruits = ["apple", "Banana", "orange", "mango", "grapes"];
+let fruits = ["apple", "Banana", "orange", "mango", "grapes"];
 
 
 
@@ -59,9 +59,9 @@
 
 // 2.    for in loop   ( in means index (arrays number))
 
-// for(let item in fruits){
-//     console.log(item);
-// }
+for(let item in fruits){
+    console.log(item);
+}
 
 
 
@@ -558,11 +558,11 @@
 
 // write a java script function that calculates the total prices of items in a shopping cart the function should take an array of item prices as input and return the total prices 
 
- const productPrice = [100, 500, 700, 1000, 1500 ]; 
+//  const productPrice = [100, 500, 700, 1000, 1500 ]; 
  
- const totalPrice = productPrice.reduce((accum, curElem) => {
-    return accum + curElem;
- }, 0);
+//  const totalPrice = productPrice.reduce((accum, curElem) => {
+//     return accum + curElem;
+//  }, 0);
 
- console.log(totalPrice);
+//  console.log(totalPrice);
  
